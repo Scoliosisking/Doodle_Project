@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description here">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .paragraph {
+            background-color: black;
+            color:white;
+            width: relative;
+            border: 5px solid white;
+            padding: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        header{
+          padding-top:50px;
+          text-align: center;
+          font-family: "Audiowide", sans-serif;
+        }
+
+        h1, h2 {
+            color: white;
+        }
+
+        a {
+          color:white;
+        }
+
+        ul {
+            background-color: black;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            float: left;
+            display: inline;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+       
+        li a.active {
+            background-color: black;
+            color: white;
+            text-decoration: underline;
+        }
+
+        li a:hover {
+            background-color: black;
+        }
+
+        section, form, p, img, iframe {
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        fieldset {
+            border: 5px solid white;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: black;
+        }
+
+        legend {
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        textarea, input, select, button {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer 
+        {
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(0,0,20);
+            color: white;
+        }
+    </style>
+    <title>Contact Page</title>
+</head>
+<body>
+
+  <header>
+    <img src="contactbutton.png" alt="contact button" width="300px" height="81px">
+  </header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#.html" class="active">Contact</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">About us</a>
+            <div class="dropdown-content">
+                <a href="diego.html">Diego</a>
+                <a href="bianca.html">Bianca</a>
+                <a href="hector.html">Hector</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+                <a href="product.html">Men</a>
+                <a href="product.html">Women</a>
+                <a href="product.html">Kids</a>
+            </div>
+        </li>
+        <li style="float: right;"><a href="drawing.html">Our Logo</a></li>
+    </ul>
+
+
+    <form action="tim.butler@elev.ga.lbs.se" name="Konktaktfomulär">
+        <fieldset>
+            <legend>Please raise your concerns: </legend>
+            <label for="fname">Your name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="email">Your email address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" rows="10" cols="30" placeholder="Raise your concern here"></textarea><br><br>
+            <label for="age">Your age:</label>
+            <input type="number" id="age" name="age" min="10" max="120" required><br><br>
+            <label for="checkboxes">Your favorite from these car companies?</label><br>
+            <input type="checkbox" id="car1" name="vehicle1" value="Bike">
+            <label for="Saab"> Saab</label><br>
+            <input type="checkbox" id="car2" name="vehicle2" value="Car">
+            <label for="Volvo"> Volvo</label><br>
+            <label for="dropdown">What is your favorite color on a car?:</label><br>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">Other</option>
+                <option value="option2">Red</option>
+                <option value="option3">Blue</option>
+                <option value="option4">Black</option>
+            </select><br><br>
+            <button type="submit" value="submit">Submit</button>
+            <button type="reset" value="reset">Erase</button>
+        </fieldset>
+    </form>
+
+    <div class="paragraph">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quae ducimus minus eius ipsum incidunt, adipisci non odio exercitationem dolores, iure molestiae enim officia repellat accusamus libero soluta quidem ut nihil. Deserunt fugit quaerat, placeat rerum laborum libero labore culpa ullam minima reiciendis, odio, quae cumque blanditiis consectetur magni nulla!</p>
+        <p></p>
+    </div>
+
+    <footer>
+    <p>&copy; Doodle Streetwear UF</p>
+    <a href="mailto:timbutler2006@gmail.com">info@DoodleStreetwearUf.com</a>
+    <p></p>
+</footer>
+</body>
+</html>
+
