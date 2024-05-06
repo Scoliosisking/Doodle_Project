@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description here">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" type="text/css" href="index.css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/e56c888a1f.js" crossorigin="anonymous"></script>
+    <title>Home Page</title>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">About us</a>
+      <div class="dropdown-content">
+        <a href="diego.html">Diego</a>
+        <a href="bianca.html">Bianca</a>
+        <a href="hector.html">Hector</a>
+        <a href="dad.html">Dad website</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Products</a>
+      <div class="dropdown-content">
+        <a href="product.html">Men</a>
+        <a href="product.html">Women</a>
+        <a href="product.html">Kids</a>
+      </div>
+    </li>
+    <li style="float: right;"><a href="drawing.html">Our Logo</a></li>
+  </ul>
+
+
+  <div class="logoimage">
+    <a href="#.html"><img src="Doodle (4).png" alt="logo" width="400px" height="200px"></a>
+  </div>
+
+
+
+<!--
+  https://junkyard.imgix.net/globalassets/productimages/7341298_990_f_f_yoke_yokeribbeanie2310_q3_junkyard.jpg?auto=format&ar=4:5&fit=crop&w=700&q=60
+  https://static.displate.com/857x1200/displate/2022-02-28/fc4f9f06df9e91635872aaaef61b5eb7_e4134c1b82a518d8c668748a3577133c.jpg
+-->
+
+<!--<p></p>
+<img style="border: 5px solid white" src="https://www.jenkemmag.com/home/wp-content/uploads/2023/08/KYLE-LEEPER-SKATE-STOPPER-NEW.gif" alt="rad ass skateboarder" width="90%" margin: 0 auto;>
+<p></p> -->
+
+
+
+    <div class="paragraph2">
+      <h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, reprehenderit minima nulla consectetur eum aspernatur dolorum id quisquam vel nesciunt aliquam? Nostrum debitis impedit natus omnis cupiditate sapiente animi quos.
+      </h4>
+    </div>
+
+<p></p>
+
+<div class="row">
+  <div class="column">
+   <img src="https://i.pinimg.com/originals/49/50/83/49508301d5727064f4d174ae0d47e93b.gif" alt="skateboard gif" style="width: 100%;">
+   <img src="https://i.pinimg.com/originals/60/e4/08/60e4082527a3df7d27d6a3bf71470832.gif" alt="skateboard gif" style="width: 100%">
+   <img src="https://i.pinimg.com/originals/10/5b/21/105b21ccc2739287e97c5449f1e0b3b2.gif" alt="skateboard gif" style="width: 100%;">
+   <img src="https://i.pinimg.com/originals/50/20/6b/50206b600752b303fa0abc0eb0ff5dcd.gif" alt="skateboard gif" style="width: 100%;">
+   <img src="https://64.media.tumblr.com/6ac99e5dd78429bd5ed66294a52c10a3/tumblr_mt8mfhPL1x1rk0szbo1_500.gif" alt="skateboard gif" style="width: 100%;">
+  </div>
+
+  <div class="column">
+    <img src="https://i.gifer.com/2mfi.gif" alt="skateboard gif" style="width: 100%">
+    <img src="https://media.tenor.com/j7SVXFlIwbQAAAAd/skateboard-tricks-people-are-awesome.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://24.media.tumblr.com/tumblr_mcbgkcTSqv1qk0m0to1_500.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://media.tenor.com/kUTWCw6ujqEAAAAC/skateboard-trick-people-are-awesome.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://i.pinimg.com/originals/48/6b/8e/486b8ef79433ae6bc9290fecece8ce4f.gif" alt="skateboard gif" style="width: 100%;">
+  </div>
+
+  <div class="column">
+    <img src="https://i.imgur.com/teV8qxp.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://i.pinimg.com/originals/e0/46/44/e04644fea9170650a2d0a33b4b0be513.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://i.pinimg.com/originals/4c/eb/ed/4cebede28da3e1efe11fcde5293c8491.gif" alt="skateboard gif" style="width: 100%;">
+    <img src="https://media.tenor.com/p5OGFcMttX4AAAAd/trick-skateboard.gif" alt="skateboard gift" style="width: 100%;">
+    <img src="https://media.tenor.com/Pvgxxneb8wYAAAAC/skateboarding-trick.gif" alt="skateboard gift" style="width: 100%">
+  </div>
+</div>
+
+
+ <!-- https://ia800507.us.archive.org/5/items/Popcornarchive-cars2006Dvd/Popcornarchive-cars2006Dvd.mp4 -->
+
+
+<footer>
+    <p>&copy; Doodle Streetwear UF</p>
+    <a href="mailto:timbutler2006@gmail.com">info@DoodleStreetwearUf.com</a>
+    <p></p>
+    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="https://ia601707.us.archive.org/6/items/goofy-movie-double-feature/A.Goofy.Movie.1995.720p.BluRay.x264-%5BYTS.AM%5D.mp4"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.instagram.com/tim_d_butler/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</footer>
+
+</body>
+</html>
