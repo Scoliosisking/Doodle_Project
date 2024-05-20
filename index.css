@@ -114,20 +114,24 @@ li.dropdown {
     display: block;
 }
 
-  .row {
+.People{
+  display: block;
+}
+
+  .person1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px 4px;
   }
 
-  .column {
+  .person2 {
     flex: 30%;
     max-width: 30%;
     padding: 0 4px;
   }
 
-  .column img {
+  .person3 img {
     margin-top: 8px;
     vertical-align: middle;
   }
