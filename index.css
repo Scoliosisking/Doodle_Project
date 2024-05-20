@@ -157,3 +157,10 @@ li.dropdown {
     padding: 5px 4px;
 }
 
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px; 
+}
