@@ -3,174 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urban Vibe Streetwear</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: src="https://videos.pexels.com/video-files/2249552/2249552-uhd_3840_2160_24fps.mp4";
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-            margin: 0 10px;
-            transition: background 0.3s;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .hero {
-            background-image: url('your-gif-url.gif'); /* Replace 'your-gif-url.gif' with the URL of your GIF */
-            background-size: cover;
-            background-position: center;
-            height: 70vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-            position: relative;
-        }
-        .hero h1 {
-            font-size: 3em;
-            margin: 0;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
-        .hero p {
-            font-size: 1.5em;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-        }
-        .content {
-            padding: 20px;
-            text-align: center;
-        }
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-            position: relative;
-        }
-        .product-item {
-            background-color: white;
-            padding: 15px;
-            border: 1px solid #ddd;
-            transition: transform 0.3s;
-            cursor: pointer;
-            position: relative;
-        }
-        .product-item:hover {
-            transform: scale(1.05);
-        }
-        .product-item img {
-            max-width: 100%;
-            height: auto;
-        }
-        .product-item h3 {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        .product-item p {
-            font-size: 1em;
-            color: #333;
-        }
-        .product-details {
-            display: none;
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ddd;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: calc(100% - 40px); /* Adjusted width to fit within grid */
-            box-sizing: border-box;
-            z-index: 100;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .product-item.active .product-details {
-            display: block;
-        }
-        .ads-section {
-            display: flex;
-            justify-content: space-around;
-            padding: 40px 20px;
-            background-color: #fff;
-            transition: margin-top 0.3s;
-        }
-        .ad-item {
-            background-color: #444;
-            color: white;
-            padding: 20px;
-            width: 30%;
-            text-align: center;
-            transition: background 0.3s, transform 0.3s;
-        }
-        .ad-item:hover {
-            background-color: #333;
-            transform: scale(1.05);
-        }
-        .ad-item h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .ad-item p {
-            font-size: 1em;
-            margin-bottom: 20px;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            padding: 40px 0;
-            position: relative;
-            width: 100%;
-            text-align: center;
-        }
-        .footer-links {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .footer-links div {
-            margin: 10px 20px;
-        }
-        .footer-links h4 {
-            margin-bottom: 10px;
-            font-size: 1.2em;
-            color: #ffcc00;
-        }
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            display: block;
-            margin: 5px 0;
-            font-size: 0.9em;
-            transition: color 0.3s;
-        }
-        .footer-links a:hover {
-            color: #ffcc00;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Doodle Streetwear</title>
 </head>
 <body>
     <header>
@@ -193,37 +27,19 @@
         <h2>Featured Products</h2>
         <div class="product-grid">
             <div class="product-item" onclick="toggleDetails(this)">
-                <img src="https://junkyard.imgix.net/globalassets/productimages/7358687_510_f_f_adidas_adiir9893fbirdttnindfbird2402_q1_junkyard.jpg?auto=format&w=500" alt="Product 1">
+                <a href="product.html"><img src="https://junkyard.imgix.net/globalassets/productimages/7358687_510_f_f_adidas_adiir9893fbirdttnindfbird2402_q1_junkyard.jpg?auto=format&w=500" alt="Product 1"></a>
                 <h3>Product 1</h3>
                 <p>$50.00</p>
-                <div class="product-details">
-                    <h4>Product 1 Details</h4>
-                    <p>This is a detailed description of Product 1. It includes all the relevant information a customer might need.</p>
-                    <p>Material: 100% Cotton</p>
-                    <p>Available Sizes: S, M, L, XL</p>
-                </div>
             </div>
             <div class="product-item" onclick="toggleDetails(this)">
-                <div class="image1"><img src="https://junkyard.imgix.net/globalassets/productimages/7362726_990_f_f_truereligion_tr1057531001bigtzipupho2404_q4_junkyard.jpg?auto=format&ar=3:5&fit=crop&w=500&q=60" alt="Product 2"></div>
+                <a href="product.html"><img src="https://junkyard.imgix.net/globalassets/productimages/7362726_990_f_f_truereligion_tr1057531001bigtzipupho2404_q4_junkyard.jpg?auto=format&ar=3:5&fit=crop&w=500&q=60" alt="Product 2"> </a>
                 <h3>Product 2</h3>
                 <p>$65.00</p>
-                <div class="product-details">
-                    <h4>Product 2 Details</h4>
-                    <p>This is a detailed description of Product 2. It includes all the relevant information a customer might need.</p>
-                    <p>Material: 100% Polyester</p>
-                    <p>Available Sizes: S, M, L, XL</p>
-                </div>
             </div>
             <div class="product-item" onclick="toggleDetails(this)">
-                <img src="https://junkyard.imgix.net/globalassets/productimages/7359455_920_f_f_yoke_yokerugbyloose2312_q2_junkyard2.jpg?auto=format&ar=3:5&fit=crop&w=700&q=60" alt="Product 3">
+                <a href="product.html"><img src="https://junkyard.imgix.net/globalassets/productimages/7359455_920_f_f_yoke_yokerugbyloose2312_q2_junkyard2.jpg?auto=format&ar=3:5&fit=crop&w=700&q=60" alt="Product 3"></a>
                 <h3>Product 3</h3>
                 <p>$45.00</p>
-                <div class="product-details">
-                    <h4>Product 3 Details</h4>
-                    <p>This is a detailed description of Product 3. It includes all the relevant information a customer might need.</p>
-                    <p>Material: 100% Cotton</p>
-                    <p>Available Sizes: S, M, L, XL</p>
-                </div>
             </div>
         </div>
     </section>
@@ -274,29 +90,6 @@
         </div>
         <p>&copy; 2024 Urban Vibe. All rights reserved.</p>
     </footer>
-    <script>
-        function toggleDetails(element) {
-            var activeItems = document.querySelectorAll('.product-item.active');
-            activeItems.forEach(function(item) {
-                if (item !== element) {
-                    item.classList.remove('active');
-                }
-            });
-            element.classList.toggle('active');
-            updateAdsMargin();
-        }
-
-        function updateAdsMargin() {
-            var activeItem = document.querySelector('.product-item.active .product-details');
-            var adsSection = document.querySelector('.ads-section');
-            if (activeItem) {
-                var activeItemHeight = activeItem.offsetHeight + 20; // Including margin
-                adsSection.style.marginTop = activeItemHeight + 'px';
-            } else {
-                adsSection.style.marginTop = '0';
-            }
-        }
-    </script>
 </body>
 </html>
 
