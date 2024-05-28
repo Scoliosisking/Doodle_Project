@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #333;
   color: white;
@@ -12,12 +13,14 @@ header {
   top: 0;
   z-index: 1000;
 }
+
 nav {
   display: flex;
   justify-content: center;
   background-color: #444;
   padding: 10px 0;
 }
+
 nav a {
   color: white;
   padding: 14px 20px;
@@ -26,39 +29,63 @@ nav a {
   margin: 0 10px;
   transition: background 0.3s;
 }
+
 nav a:hover {
   background-color: #555;
 }
+
 .hero {
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
-  position: relative;
+  color: white;
+  overflow: hidden;
 }
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
 .hero h1 {
   font-size: 3em;
   margin: 0;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
 .hero p {
   font-size: 1.5em;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
 .content {
   padding: 20px;
   text-align: center;
 }
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
 }
+
 .product-item {
   background-color: white;
   padding: 15px;
@@ -67,21 +94,26 @@ nav a:hover {
   cursor: pointer;
   position: relative;
 }
+
 .product-item:hover {
   transform: scale(1.05);
 }
+
 .product-item img {
   max-width: 100%;
   height: auto;
 }
+
 .product-item h3 {
   margin: 10px 0;
   font-size: 1.2em;
 }
+
 .product-item p {
   font-size: 1em;
   color: #333;
 }
+
 .product-details {
   display: none;
   background-color: #fff;
@@ -95,9 +127,11 @@ nav a:hover {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .product-item.active .product-details {
   display: block;
 }
+
 .ads-section {
   display: flex;
   justify-content: space-around;
@@ -105,6 +139,7 @@ nav a:hover {
   background-color: #fff;
   transition: margin-top 0.3s;
 }
+
 .ad-item {
   background-color: #444;
   color: white;
@@ -113,18 +148,22 @@ nav a:hover {
   text-align: center;
   transition: background 0.3s, transform 0.3s;
 }
+
 .ad-item:hover {
   background-color: #333;
   transform: scale(1.05);
 }
+
 .ad-item h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
+
 .ad-item p {
   font-size: 1em;
   margin-bottom: 20px;
 }
+
 .footer {
   background-color: #333;
   color: white;
@@ -133,6 +172,7 @@ nav a:hover {
   width: 100%;
   text-align: center;
 }
+
 .footer-links {
   display: flex;
   justify-content: space-around;
@@ -140,14 +180,17 @@ nav a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .footer-links div {
   margin: 10px 20px;
 }
+
 .footer-links h4 {
   margin-bottom: 10px;
   font-size: 1.2em;
   color: #ffcc00;
 }
+
 .footer-links a {
   color: white;
   text-decoration: none;
@@ -156,9 +199,11 @@ nav a:hover {
   font-size: 0.9em;
   transition: color 0.3s;
 }
+
 .footer-links a:hover {
   color: #ffcc00;
 }
+
 fieldset {
   margin-top: 20px;
   margin-bottom: 40px;
