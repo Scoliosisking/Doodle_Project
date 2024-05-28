@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Doodle Streetwear</title>
+</head>
+<body>
+    <header>
+        <h1>Doodle Streetwear</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <section class="content" id="shop">
+        <h2>Shop Now</h2>
+        <div class="product-grid">
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7358687_510_f_f_adidas_adiir9893fbirdttnindfbird2402_q1_junkyard.jpg?auto=format&w=500" alt="Product 1">
+                <h3> Adidas Jacket</h3>
+                <p>$50.00</p>
+                <div class="product-details">
+                    <h4>Product 1 Details</h4>
+                    <p>This Adidas jacket exudes urban style with its modern design and bold branding. Perfect for adding a trendy edge to any outfit, it's a versatile choice for both casual and athletic wear.</p>
+                    <p>Material: 50% Cotton, 50% Polyester</p>
+                    <p>Available Sizes: S, M, L, XL</p>
+                    <p>Color: Blue</p>
+                    <p>Washing Instructions: Machine wash cold, tumble dry low</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 1 - Adidas Jacket', 50)">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7362726_990_f_f_truereligion_tr1057531001bigtzipupho2404_q4_junkyard.jpg?auto=format&ar=3:5&fit=crop&w=500&q=60" alt="Product 2">
+                <h3>Hoodie</h3>
+                <p>$40.00</p>
+                <div class="product-details">
+                    <h4>Product 2 Details</h4>
+                    <p>With its contemporary design and comfortable fit, it's the perfect addition to any casual outfit. The hoodie features distinctive True Religion branding, adding a touch of urban flair to your streetwear collection.</p>
+                    <p>Material: 100% Cotton</p>
+                    <p>Available Sizes: S, M, L, XL</p>
+                    <p>Color: White</p>
+                    <p>Washing Instructions: Machine wash warm, inside out, with like colors. Tumble dry low.</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 2 - Hoodie', 40)">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7362010_990_d1_f_junkyard_jyvisionsrectangularsunglas2402_q1_junkyard.jpg?auto=format&w=500" alt="Product 3">
+                <h3>Glasses</h3>
+                <p>$30.00</p>
+                <div class="product-details">
+                    <h4>Product 3 Details</h4>
+                    <p>The perfect blend of modern edge and timeless style. These sleek, black rectangular frames offer a bold look, while their durable construction ensures long-lasting wear. Ideal for any setting, from urban streets to sunny beaches, JY Visions elevate your style effortlessly.</p>
+                    <p>Material: 80% plastic, 20% glass</p>
+                    <p>Available Sizes: One size</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 3 - Glasses', 30)">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7359837_984_f_f_yoke_yokeoganoteapocket2404_q1_junkyard.jpg?auto=format&w=500" alt="Product 4">
+                <h3>Tea Dye T-Shirt</h3>
+                <p>$20.00</p>
+                <div class="product-details">
+                    <h4>Product 4 Details</h4>
+                    <p>This trendy pocket tee by Yoke, blending urban style with casual comfort. With its unique design and earthy tones, it's perfect for adding a touch of streetwear flair to any wardrobe.</p>
+                    <p>Material: 100% Cotton</p>
+                    <p>Available Sizes: S, M, L, XL</p>
+                    <p>Color: Gray</p>
+                    <p>Washing Instructions: Machine wash cold, tumble dry low</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 4 - Tea Dye Shirt', 20)">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7360340_994_f_f_sweetsktbs_sweetbigjeansshorts2402_q1_junkyard.jpg?auto=format&w=500" alt="Product 5">
+                <h3>Vincent Jorts</h3>
+                <p>$40.00</p>
+                <div class="product-details">
+                    <h4>Product 5 Details</h4>
+                    <p>The stylish pair of denim shorts by Sweet Skateboards. These denim shorts feature a classic design with a modern twist, offering a comfortable and trendy option for casual wear. With their versatile appeal and durable construction, they're perfect for adding a touch of urban flair to your summer wardrobe. These shorts inspired by Vincent are very lovely.</p>
+                    <p>Material: 100% Jeans</p>
+                    <p>Available Sizes: S, M, L, XL</p>
+                    <p>Color: Black</p>
+                    <p>Washing Instructions: Machine wash cold, tumble dry low</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 5 - Vincent Jorts', 40)">Buy Now</button>
+                </div>
+            </div>
+            <div class="product-item" onclick="toggleDetails(this)">
+                <img src="https://junkyard.imgix.net/globalassets/productimages/7360318_990_f_f_sweetsktbs_sweetlooseteerose2404_q1_junkyard.jpg?auto=format&w=500" alt="Product 6">
+                <h3>Rose T-shirt, loose fit</h3>
+                <p>$20.00</p>
+                <div class="product-details">
+                    <h4>Product 6 Details</h4>
+                    <p>This is a chic loose-fit tee by Sweet Skateboards. With its relaxed silhouette and understated design, this tee offers a comfortable and stylish option for everyday wear. The tee's soft fabric and versatile color make it a wardrobe essential, perfect for pairing with your favorite jeans or shorts for a casual urban look.</p>
+                    <p>Material: 100% Cotton</p>
+                    <p>Available Sizes: S, M, L, XL</p>
+                    <p>Color: Black</p>
+                    <p>Washing Instructions: Machine wash cold, tumble dry low</p>
+                    <p>Made in Bangladesh</p>
+                    <button class="buy-button" onclick="showModal('Product 6 - Rose T-Shirt, loose fit', 20)">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-links">
+            <div>
+                <h4>Customer Service</h4>
+                <a href="#contact">Contact Us</a>
+                <a href="#returns">Returns</a>
+                <a href="#shipping">Shipping</a>
+                <a href="#faq">FAQs</a>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <a href="#terms">Terms of Service</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#cookies">Cookie Policy</a>
+            </div>
+            <div>
+                <h4>About</h4>
+                <a href="#about">About Us</a>
+                <a href="#careers">Careers</a>
+                <a href="#press">Press</a>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <a href="#facebook">Facebook</a>
+                <a href="#twitter">Twitter</a>
+                <a href="#instagram">Instagram</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Doodle Streetwear. All rights reserved.</p>
+    </footer>
+
+
+    <script>
+        function toggleDetails(element) {
+    var activeItems = document.querySelectorAll('.product-item.active');
+    activeItems.forEach(function(item) {
+        if (item !== element) {
+            item.classList.remove('active');
+        }
+    });
+    element.classList.toggle('active');
+    updateAdsMargin();
+}
+
+function updateAdsMargin() {
+    var activeItem = document.querySelector('.product-item.active .product-details');
+    var adsSection = document.querySelector('.ads-section');
+    if (activeItem) {
+        var activeItemHeight = activeItem.offsetHeight + 20; // Including margin
+        adsSection.style.marginTop = activeItemHeight + 'px';
+    } else {
+        adsSection.style.marginTop = '0';
+    }
+}
+
+function showModal(productName, price) {
+    alert('You have chosen ' + productName + ' for $' + price);
+}
+
+    </script>
+
+
+</body>
+</html>
