@@ -159,3 +159,10 @@ nav a:hover {
 .footer-links a:hover {
   color: #ffcc00;
 }
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px; 
+}
